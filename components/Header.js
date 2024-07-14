@@ -5,8 +5,9 @@ import {HomeIcon} from "@heroicons/react/solid"
 
 
 const Header = () => {
-  return (        
-            <div className="flex items-center justify-between max-w-6xl mx-4 xl:mx-auto">
+  return ( 
+          <div className="shadow-sm border-b sticky top-0 bg-white z-30">
+              <div className="flex items-center justify-between max-w-6xl mx-4 xl:mx-auto">
                  {/* Left*/}
                     <div className="cursor-pointer h-24 w-24 relative lg:inline-grid">
                     <Image
@@ -40,6 +41,8 @@ const Header = () => {
 
             </div>
   
+          </div>       
+            
   )
 }
 
