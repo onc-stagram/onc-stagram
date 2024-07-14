@@ -25,6 +25,15 @@ sec 4   Story Section
         create Stories.js in components floder
         install ninifaker for test program
         => npm i minifaker
+    
+    st 2 Style the story section and install tailwind css
+    =>npm install --save-dev tailwind-scrollbar
+    edit tailwind.config.js
+        plugins: [
+                        require('@tailwindcss/forms'),
+                        require('tailwind-scrollbar')
+                 ],
+
 
             
         
