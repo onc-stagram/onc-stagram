@@ -9,20 +9,28 @@ const Header = () => {
           <div className="shadow-sm border-b sticky top-0 bg-white z-30">
               <div className="flex items-center justify-between max-w-6xl mx-4 xl:mx-auto">
                  {/* Left*/}
-                    <div className="cursor-pointer h-24 w-24 relative lg:inline-grid">
-                    <Image
-                        src="/onc-stagram-3.png"
-                        
-                        width={90}
-                        height={60}
-                        alt="Picture of the author"
-                        className="object-contain"
-                        />
+                    <div className="cursor-pointer h-24 w-24 relative hidden lg:inline-grid">
+                        <Image
+                            src="/long-onc-stagram-3.png"
+                            layout="fill"
+                            alt="Picture of the author"
+                            className="object-contain"
+                            />
+                      </div>
+                      <div className="cursor-pointer h-24 w-10 relative lg:hidden">
+                        <Image
+                            src="/onc-stagram-3.png"
+                            
+                            width={90}
+                            height={60}
+                            alt="Picture of the author"
+                            className="object-contain"
+                            />
                     </div>
              
 
                       {/* Middle*/}
-                      <div className="realtive mt-1">
+                      <div className="relative mt-1">
                             <div className="absolute top-2 left-2">
                                 <SearchIcon  className="h-5  text-gray-500"/>
                             </div>

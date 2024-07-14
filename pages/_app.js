@@ -1,5 +1,8 @@
-import "@/styles/globals.css";
+import "../Assets/globals.css"; // Import global CSS
+import "../Assets/Story.module.css"; // Import Story module CSS
 
-export default function App({ Component, pageProps }) {
+function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
+
+export default MyApp;
