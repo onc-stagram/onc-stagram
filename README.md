@@ -36,5 +36,8 @@ sec 4   Story Section
 
 
             
-        
+sec 5  Feed Section
+    st 1. Create posts and post components and make some dummy data    
+    create Posts.js in Floder components
+      
 
